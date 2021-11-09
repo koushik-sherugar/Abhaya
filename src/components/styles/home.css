@@ -1,0 +1,117 @@
+/* #FF00BF */
+
+
+.heading{
+    font-size: 4rem;
+}
+
+i{
+    color: #FF00BF;
+  }
+  .brand-icon {
+    font-weight: bolder;
+  }
+  .brand-color {
+    color: #FF00BF;
+    text-shadow: 2px solid black;
+  }
+  .nav-link {
+    color: black;
+    font-weight: 700;
+  }
+
+
+  .header-section {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100vh;
+  
+    align-items: center;
+    text-align: center;
+    position: relative;
+/*   
+    background-image: linear-gradient(
+      rgba(255,214,126,0.5),
+      rgba(253,200,0, 0.5)
+    ),
+    
+      url("../src/images/background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 127% 100%;
+    /* clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0); */
+    /* background-image: radial-gradient( circle 489px at 49.3% 46.6%,  rgba(255,214,126,1) 0%, rgba(253,200,0,1) 100.2% ); */
+    /* linear-gradient(
+        rgba(255, 200, 0, 0.5),
+        rgba(255, 200, 0, 0.5)
+      ), */
+      /* clip-path: polygon(100% 0%, 0% 0% , 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%); */
+  }
+  
+  
+  .header-section ::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+    position: absolute;
+    /* background: linear-gradient(to right, #8f6b07 0%, #b9a21e 0%, #e6d00b 0%); */
+    opacity: 0.1;
+    z-index: -1;
+  }
+  
+  .Navbar ::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+    position: absolute;
+    background: linear-gradient(to right, #FFC0CB 0%, #FFC0CB 0%, #FFC0CB 0%);
+    opacity: 0.1;
+    z-index: -1;
+  }
+  .center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .center-div h1 {
+    font-size: 4rem !important;
+    font-weight: 700 !important;
+    color: rgb(12, 12, 12);
+  }
+  .center-div p {
+    font-size: 1rem !important;
+    color: rgb(22, 21, 21);
+  }
+  
+  .header-buttons a {
+    text-decoration: none;
+    outline: none;
+    font-size: 1rem;
+    font-family:  sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background: rgb(7, 7, 7);
+    margin: 3px 16px;
+    padding: 5px 8px;
+    border: 2px solid rgb(15, 15, 15) !important;
+  
+    border-radius: 100px;
+  }
+  .header-buttons a :hover {
+    background: red !important;
+    color: rgb(228, 225, 225) !important;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3) !important;
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
