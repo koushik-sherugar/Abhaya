@@ -1,6 +1,6 @@
 import About from "../pages/About";
 import Home from "../pages/Home";
-import UserLocation from "../pages/UserLocation";
+import UserLocation from "../pages/Location";
 
 const routeConfig = {
   routes: [
