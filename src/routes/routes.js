@@ -6,13 +6,15 @@ function Routes(/* {authStore} */) {
   const { routes } = routeConfig;
 
   return (
-      <BrowserRouter>
-    <Switch>
-      {routes.map((route) => {
-        const { component: Component, path, exact } = route;
-        return <Route path={path} component={Component} exact={exact} />;
-      })}
-    </Switch>
+    <BrowserRouter>
+      <Switch>
+        {routes.map((route, i) => {
+          const { component: Component, path, exact } = route;
+          return (
+            <Route path={path} component={Component} exact={exact} key={i} />
+          );
+        })}
+      </Switch>
     </BrowserRouter>
   );
 }
