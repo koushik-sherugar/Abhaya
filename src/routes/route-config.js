@@ -1,6 +1,6 @@
 import About from "../pages/About";
 import Home from "../pages/Home";
-
+import UserLocation from "../pages/UserLocation";
 
 const routeConfig = {
   routes: [
@@ -14,7 +14,16 @@ const routeConfig = {
       path: "/about",
       exact: true,
     },
-    
+    {
+      component: About,
+      path: "/about",
+      exact: true,
+    },
+    {
+      component: UserLocation,
+      path: "/location",
+      exact: true,
+    },
   ],
 };
 
