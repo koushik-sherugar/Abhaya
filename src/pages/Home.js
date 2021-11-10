@@ -53,7 +53,7 @@ function Home() {
             window.open(process.env.REACT_APP_LOGIN, "_self");
           }}
           >
-              <a href="#" >SOS </a>
+              <a href="#" >get started</a>
           
         </Button>
         

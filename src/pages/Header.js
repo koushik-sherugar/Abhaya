@@ -54,9 +54,10 @@ export default function Header() {
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             // fontFamily={'heading'}
-            
             fontSize='2rem'
-            color={useColorModeValue('red.600', 'red.500')}>
+            textTransform={"uppercase"}
+          fontWeight={"bold"}
+            color={useColorModeValue('pink.600', 'pink.400')}>
               <span color="red.500">A</span>bhaya
           </Text>
 
