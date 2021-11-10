@@ -1,3 +1,14 @@
+Abhaya - Women Safety Application
+
+This web based Application is helpful to ensure safety and protecting rights of Women. It tries to prevent and solves the various threats and exploitation that might occur against women.
+
+A single click on this application identifies the location of the place through GPS and sends a message containing this location URL to the registered contacts to help the women in dangerous situations and it also has an SOS Alarm alert. 
+To create awareness about women rights, we have added the details regarding various constitutional rights and various legal actions regarding harassment of women.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
