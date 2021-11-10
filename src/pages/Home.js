@@ -5,7 +5,6 @@ import {
   Text,
   Button,
   Stack,
-  Flex,
 } from '@chakra-ui/react';
 
 import React from "react";

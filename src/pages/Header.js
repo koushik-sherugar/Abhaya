@@ -3,7 +3,6 @@ import {
   Flex,
   Text,
   IconButton,
-  Button,
   Stack,
   Collapse,
   Icon,
@@ -245,12 +244,12 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
   );
 };
 
-interface NavItem {
-  label: string;
-  subLabel?: string;
-  children?: Array<NavItem>;
-  href?: string;
-}
+// interface NavItem {
+//   label: string;
+//   subLabel?: string;
+//   children?: Array<NavItem>;
+//   href?: string;
+// }
 
 const NAV_ITEMS: Array<NavItem> = [
   {
