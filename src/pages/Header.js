@@ -20,14 +20,6 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import Home from "./Home";
-import About from "./About";
-import Sound from "./Sound";
-import Sos from "./Sos";
-import Contact from "./Contact";
-import Rights from "./Rights";
-import Ngo from "./Ngo";
-import UserLocation from "./Location";
 
 // import { Link as ReachLink } from "@reach/router"
 
@@ -61,7 +53,7 @@ export default function Header() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
+        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}  >
           <Text
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             // fontFamily={'heading'}
