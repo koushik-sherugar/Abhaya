@@ -19,19 +19,23 @@ export default function App() {
     }
   }, []);
 
-  const successLocation = (position) =>
+  const successLocation = (position) => {
+    console.log("success Locations");
     setViewport({
       zoom: 12,
       latitude: position.coords.latitude,
       longitude: position.coords.longitude,
     });
+  };
 
-  const errorLocation = () =>
+  const errorLocation = () => {
+    console.log("error Locations");
     setViewport({
       zoom: 12,
       longitude: -122.45,
       latitude: 37.78,
     });
+  };
 
   return (
     <ReactMapGL

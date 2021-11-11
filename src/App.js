@@ -27,9 +27,9 @@ function App() {
         onClick={toggleColorMode}
       >
         {colorMode === "light" ? (
-          <i class="fas fa-moon"></i>
+          <i className="fas fa-moon"></i>
         ) : (
-          <i class="fas fa-sun"></i>
+          <i className="fas fa-sun"></i>
         )}
       </Button>
 

@@ -53,7 +53,7 @@ export default function Header() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}  >
+        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Text
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             // fontFamily={'heading'}
@@ -127,6 +127,7 @@ const DesktopNav = () => {
                   textDecoration: "none",
                   color: linkHoverColor,
                 }}
+                sx={{ textTransform: "capitalize" }}
               >
                 {navItem.label}
               </Link>
