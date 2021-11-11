@@ -1,8 +1,8 @@
 import About from "../pages/About";
 import Home from "../pages/Home";
 import Sound from "../pages/Sound";
-import Sos from "../pages/Sos"
-import UserLocation from "../pages/UserLocation";
+import Sos from "../pages/Sos";
+import UserLocation from "../pages/Location";
 
 const routeConfig = {
   routes: [
@@ -26,7 +26,7 @@ const routeConfig = {
       path: "/sos",
       exact: true,
     },
-    
+
     {
       component: UserLocation,
       path: "/location",
