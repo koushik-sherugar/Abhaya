@@ -20,6 +20,15 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
+import Home from './Home';
+import About from './About';
+import Sound from './Sound';
+import Sos from './Sos'
+import Contact from "./Contact"
+import Rights from "./Rights"
+import Ngo from "./Ngo"
+import UserLocation from "./UserLocation"
+
 // import { Link as ReachLink } from "@reach/router"
 
 export default function Header() {
@@ -255,10 +264,11 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'home',
-    href:"#",
+    href:"/",
   },
   {
     label: 'about',
+    href:'/about'
     // children: [
     //   {
     //     label: 'Alert',
@@ -272,22 +282,29 @@ const NAV_ITEMS: Array<NavItem> = [
     //   },
     // ],
   },
-  
+  {
+    label: 'user location',
+    href: '/location'
+  },
+  {
+    label: 'sos',
+    href: '/sos',
+  },
   {
     label: 'alert',
-    href: '#',
+    href: '/sound',
   },
   {
     label: 'rights',
-    href: '#',
+    href: '/rights',
   },
   {
     label: 'NGO',
-    href: '#',
+    href: '/ngo',
   },
   {
     label: 'contact us',
-    href: '#',
+    href: '/contact',
   },
 ];
 

@@ -6,7 +6,7 @@ import { Flex, Heading } from "@chakra-ui/layout";
 
 import Route from "./routes/routes"
 import Header from "./pages/Header"
-import AudioTest from "./components/AudioTest"
+import AudioTest from "./pages/Sound"
 import Footer from './pages/Footer';
 function App() {
     // <div className="App">
@@ -33,6 +33,7 @@ function App() {
       <Header />
       <Route />
       <Footer/>
+
       {/* <AudioTest/> */}
     {/* </Flex> */}
     </>

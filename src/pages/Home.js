@@ -42,7 +42,7 @@ function Home() {
         position={'relative'}>
          <Button
          
-          colorScheme={'green'}
+          colorScheme={'pink'}
           bg={'pink.600'}
           rounded={'full'}
           px={6}
@@ -53,7 +53,7 @@ function Home() {
             window.open(process.env.REACT_APP_LOGIN, "_self");
           }}
           >
-              <a href="#" >get started</a>
+              <a href="#" >Register Now</a>
           
         </Button>
         
