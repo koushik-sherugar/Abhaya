@@ -1,13 +1,13 @@
 import { Flex, Text, Box, Link } from "@chakra-ui/react";
 import React from "react";
-import SosComponent from "./SosComponent";
+// import SosComponent from "./SosComponent";
 const Sos = () => {
   return (
     <Flex justify="center" h="100vh" alignItems='center' flexDirection='column'>
       <Text fontSize="4xl">Feeling unsafe?</Text>
       <br />
       <Text fontSize="2xl">press the button below 👇</Text>
-      <Link href= "/SosComponent">
+      <Link href= "/soscomponent">
       <Box
       
         as="button"

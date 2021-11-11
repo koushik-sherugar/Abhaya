@@ -5,7 +5,6 @@ import { useColorMode } from "@chakra-ui/color-mode";
 
 import Route from "./routes/routes";
 import Header from "./pages/Header";
-
 import Footer from "./pages/Footer";
 function App() {
   // <div className="App">
