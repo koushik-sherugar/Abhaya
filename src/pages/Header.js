@@ -27,7 +27,7 @@ import Sos from './Sos'
 import Contact from "./Contact"
 import Rights from "./Rights"
 import Ngo from "./Ngo"
-import UserLocation from "./UserLocation"
+import Location from "./Location"
 
 // import { Link as ReachLink } from "@reach/router"
 

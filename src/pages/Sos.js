@@ -1,22 +1,23 @@
-import { Flex, Text, Box } from "@chakra-ui/react";
+import { Flex, Text, Box, Link } from "@chakra-ui/react";
 import React from "react";
-
+import SosComponent from "./SosComponent";
 const Sos = () => {
   return (
-    <Flex justify="center" h="100vh" justifyContent="center">
+    <Flex justify="center" h="100vh" alignItems='center' flexDirection='column'>
       <Text fontSize="4xl">Feeling unsafe?</Text>
       <br />
       <Text fontSize="2xl">press the button below 👇</Text>
-
+      <Link href= "/SosComponent">
       <Box
+      
         as="button"
-        height="64px"
-        width= "200px"
+        height="300px"
+        width= "300px"
         lineHeight="1.2"
         transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
         border="1px"
         px="8px"
-        borderRadius="2px"
+        borderRadius="100px"
         fontSize="14px"
         fontWeight="semibold"
         bg="red"
@@ -36,6 +37,7 @@ const Sos = () => {
             <Text fontSize="4xl">SOS <i class="fas fa-ban"/></Text>
         
       </Box>
+      </Link>
     </Flex>
   );
 };
