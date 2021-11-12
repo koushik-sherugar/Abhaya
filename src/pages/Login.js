@@ -59,7 +59,7 @@ export default function Login() {
               <FormLabel>Message text here</FormLabel>
               <Textarea
               required
-                borderColor="gray.300"
+            
                 _hover={{
                   borderRadius: "gray.300",
                 }}
@@ -78,7 +78,7 @@ export default function Login() {
               <FormLabel>Message text here</FormLabel>
               <Textarea
               required
-                borderColor="gray.300"
+              
                 type="text"
                 _hover={{
                   borderRadius: "gray.300",

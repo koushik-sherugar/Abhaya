@@ -4,7 +4,7 @@ const client = require("twilio")(
   process.env.TWILIO_ACCOUNT_SID,
   process.env.TWILIO_TOKEN
 );
-
+console.log({process:process.env.TWILIO_ACCOUNT_SID})
 export default async (req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "application/json");
