@@ -4,6 +4,7 @@ import {
   FormControl,
   FormLabel,
   Input,
+  Textarea,
   Stack,
   Button,
   Heading,
@@ -36,25 +37,55 @@ export default function Login() {
           <Stack spacing={4}>
             <FormControl id="name">
               <FormLabel>Name</FormLabel>
-              <Input type="text" />
+              <Input type="text" required />
             </FormControl>
             <FormControl id="email">
               <FormLabel>Email address</FormLabel>
-              <Input type="email" />
+              <Input type="email"required />
             </FormControl>
             <FormControl id="password">
               <FormLabel>Password</FormLabel>
-              <Input type="password" />
+              <Input type="password" required/>
             </FormControl>
             <FormControl id="contact1">
-              <FormLabel>Contact name</FormLabel>
-              <Input type="text" />
+              <FormLabel>Contact name-1</FormLabel>
+              <Input type="text" required />
             </FormControl>
             <FormControl id="number1">
-              <FormLabel>Phone Number</FormLabel>
-              <Input type="number" required />
+              <FormLabel>Phone Number-1</FormLabel>
+              <Input type="tel" required />
             </FormControl>
-            {/* TODO: A meesage textArea which is required */}
+            <FormControl id="name">
+              <FormLabel>Message text here</FormLabel>
+              <Textarea
+              required
+                borderColor="gray.300"
+                _hover={{
+                  borderRadius: "gray.300",
+                }}
+                placeholder="message"
+              />
+            </FormControl>
+            <FormControl id="contact2">
+              <FormLabel>Contact name-2</FormLabel>
+              <Input type="text" required/>
+            </FormControl>
+            <FormControl id="number2">
+              <FormLabel>Phone Number-2</FormLabel>
+              <Input type="tel" required />
+            </FormControl>
+            <FormControl id="name">
+              <FormLabel>Message text here</FormLabel>
+              <Textarea
+              required
+                borderColor="gray.300"
+                type="text"
+                _hover={{
+                  borderRadius: "gray.300",
+                }}
+                placeholder="message"
+              />
+            </FormControl>
             <Stack spacing={10}>
               {/* <Stack
                   direction={{ base: 'column', sm: 'row' }}
