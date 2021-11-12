@@ -7,7 +7,9 @@ import Location from "../pages/Location";
 // import UserLocation from "../pages/Location";
 import Message from "../pages/Message";
 import SosComponent from "../pages/SosComponent";
-import Authentication from "../pages/Authentication";
+import Rights from "../pages/Rights";
+import Contact from "../pages/Contact"
+import Login from "../pages/../pages/Login"
 
 const routeConfig = {
   routes: [
@@ -48,8 +50,18 @@ const routeConfig = {
       exact: true,
     },
     {
-      component: Authentication,
-      path: "/authentication",
+      component: Rights,
+      path: "/rights",
+      exact: true,
+    },
+    {
+      component: Contact,
+      path: "/contact",
+      exact: true,
+    },
+    {
+      component: Login,
+      path: "/login",
       exact: true,
     },
   ],

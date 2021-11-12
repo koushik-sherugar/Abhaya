@@ -11,35 +11,11 @@ import {
     Badge,
     useColorModeValue,
   } from '@chakra-ui/react';
-  
-  const FamData = [
-       {     "id":1,
-            // image:require('')
-           "name": 'police',
-           "call": 66777,
-       },
-       {     "id":1,
-            // image:require('')
-           "name": 'hospital',
-           "call": 66777,
-       },
-       {     "id":1,
-            // image:require('')
-           "name": 'ambulence',
-           "call": 66777,
-       },
-       {     "id":1,
-            // image:require('')
-           "name": 'ambulence',
-           "call": 66777,
-       },
-       
-       
-   ]
+  import Numbers from "../data/Numbers.json"
   const  CardOrg=()=> {
     return (
         <>
-        {FamData.map((cardEach, index)=>{
+        {Numbers.map((cardEach, index)=>{
             return(
                 
                 <Center py={6}>
@@ -114,8 +90,10 @@ import {
             }}>
             call now
           </Button>
+          <Link href= "/message">
 
           <Button
+          
             flex={1}
             fontSize={'sm'}
             rounded={'full'}
@@ -132,6 +110,7 @@ import {
             }}>
             message
           </Button>
+          </Link>
         </Stack>
         </Box>
         </Center>

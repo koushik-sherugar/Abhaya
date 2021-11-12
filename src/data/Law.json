@@ -1,0 +1,17 @@
+[
+        {
+            "id":1,
+            "heading":"right to equality",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam odit velit in repellat maxime error praesentium fuga, impedit sunt dolore?" ,
+            "image": "https://source.unsplash.com/1600x900/?womenrights,law,indianconstitution"
+            
+        },
+        {
+            "id":2,
+            "heading":"Right2",
+            "description":"2Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam odit velit in repellat maxime error praesentium fuga, impedit sunt dolore?" ,
+            "image": "https://source.unsplash.com/1600x900/?womenrights,law,indianconstitution"
+            
+        }
+        
+    ]

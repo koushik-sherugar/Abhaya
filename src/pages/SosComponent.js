@@ -5,6 +5,7 @@ import {
   Flex,
   SimpleGrid,
   Text,
+  Divider,
   Container,
   Stack,
   GridItem,
@@ -47,6 +48,7 @@ const SosComponent = () => {
             
   <CardFamily/>
 </SimpleGrid>
+<Divider marginTop="6" color="grey.600" />
 <Stack as={Box} alignItems="center" spacing={{ base: 8, md: 14 }}>
 <HStack  justifyItems='space-between' >
     

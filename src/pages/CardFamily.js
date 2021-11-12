@@ -18,7 +18,7 @@ import {
            "name": 'koushik',
            "call": 66777,
        },
-       {     "id":1,
+       {     "id":2,
             // image:require('')
            "name": 'kunal',
            "call": 66777,
@@ -114,7 +114,7 @@ import {
             }}>
             call now
           </Button>
-
+            <Link href="/message">
           <Button
             flex={1}
             fontSize={'sm'}
@@ -132,6 +132,7 @@ import {
             }}>
             message
           </Button>
+          </Link>
         </Stack>
         </Box>
         </Center>
