@@ -46,13 +46,13 @@ const About = () => {
           domestic violence and not well aware of constitutional laws and the
           organisations to whom they can ask to help them. So our aim is to
           provide safety as well creating awareness about constitutional rights
-          and various NGOs to them. 
+          and various NGOs to help them. 
           <br/>
           How are we solving it? <br/>
           Abhaya - Women Safety Application This web based Application is
           helpful to ensure safety and protecting rights of Women.
           <br/>
-           For women safety we are providing live location sharing through
+            we are providing live location sharing through
           SMS , calling family members and organisations like police station,
           office which are nearer to their current location. <br/>
           creating awareness of constitutional law and bringing justice to all victims through NGOs

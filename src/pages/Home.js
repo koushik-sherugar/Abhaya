@@ -33,6 +33,7 @@ function Home() {
           alignSelf={"center"}
           position={"relative"}
         >
+          <Link  href="/login">
           <Button
           
             colorScheme={"pink"}
@@ -42,12 +43,12 @@ function Home() {
             _hover={{
               bg: "pink.400",
             }}
-            onClick={() => {
-              window.open(process.env.REACT_APP_LOGIN, "_self");
-            }}
-          >
-            <Link  href="/">Register Now</Link>
+            // onClick={() => {
+            //   window.open(process.env.REACT_APP_LOGIN, "_self");
+            // }}
+          >Register Now
           </Button>
+              </Link>
         </Stack>
       </Stack>
     </Container>

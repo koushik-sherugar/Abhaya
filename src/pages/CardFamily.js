@@ -8,8 +8,8 @@ import {
     Stack,
     Button,
     Link,
-    Badge,
-    useColorModeValue,
+    // Badge,
+    // useColorModeValue,
   } from '@chakra-ui/react';
   
   const CardData = [

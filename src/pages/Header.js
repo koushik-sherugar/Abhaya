@@ -20,14 +20,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
-import Home from './Home';
-import About from './About';
-import Sound from './Sound';
-import Sos from './Sos'
-import Contact from "./Contact"
-import Rights from "./Rights"
-import Ngo from "./Ngo"
-import Location from "./Location"
+
 
 // import { Link as ReachLink } from "@reach/router"
 
