@@ -262,8 +262,8 @@ const NAV_ITEMS = [
     href: "/sos",
   },
   {
-    label: "alert",
-    href: "/sound",
+    label: "panic",
+    href: "/panic",
   },
   {
     label: "rights",
