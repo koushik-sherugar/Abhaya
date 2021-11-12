@@ -8,6 +8,7 @@ import Location from "../pages/Location";
 import Message from "../pages/Message";
 import SosComponent from "../pages/SosComponent";
 import Rights from "../pages/Rights";
+import Ngo from "../pages/Ngo";
 import Contact from "../pages/Contact"
 import Login from "../pages/../pages/Login"
 
@@ -52,6 +53,11 @@ const routeConfig = {
     {
       component: Rights,
       path: "/rights",
+      exact: true,
+    },
+    {
+      component: Ngo,
+      path: "/ngo",
       exact: true,
     },
     {
