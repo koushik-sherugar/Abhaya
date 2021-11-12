@@ -1,12 +1,12 @@
 import About from "../pages/About";
 import Home from "../pages/Home";
-import Sound from "../pages/Sound";
 import Sos from "../pages/Sos"
 import Location from "../pages/Location";
 // import Sos from "../pages/Sos";
 // import UserLocation from "../pages/Location";
 import Message from "../pages/Message";
 import SosComponent from "../pages/SosComponent";
+import Panic from "../pages/Panic";
 import Rights from "../pages/Rights";
 import Ngo from "../pages/Ngo";
 import Contact from "../pages/Contact"
@@ -25,8 +25,8 @@ const routeConfig = {
       exact: true,
     },
     {
-      component: Sound,
-      path: "/sound",
+      component: Panic,
+      path: "/panic",
       exact: true,
     },
     {

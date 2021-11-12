@@ -34,7 +34,7 @@ const testimonials = [
 
   {
     name: "Kunal Kumar",
-    role: "Full stack web developer",
+    role: "Full stack web and app developer",
     content:
       "An enthusiastic full stack webdeveloper with an creative mind and ideology and helping his fellow developers in team and taking them forward along with him.",
     avatar: KunalKumar,

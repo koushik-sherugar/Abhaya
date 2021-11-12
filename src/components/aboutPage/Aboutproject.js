@@ -37,7 +37,7 @@ const About = () => {
         >
           About The Project
         </Heading>
-        <BlogTags tags={["reactjs", "google maps", "mapbox"]} marginTop="3" />
+        <BlogTags tags={["reactjs", "google maps", "mapbox", "twillo"]} marginTop="3" />
         <Text as="p" fontSize="lg" marginTop="3">
 
           
@@ -47,14 +47,15 @@ const About = () => {
           organisations to whom they can ask to help them. So our aim is to
           provide safety as well creating awareness about constitutional rights
           and various NGOs to help them. 
-          <br/>
-          How are we solving it? <br/>
-          Abhaya - Women Safety Application This web based Application is
-          helpful to ensure safety and protecting rights of Women.
-          <br/>
-            we are providing live location sharing through
+          
+
+          <Heading as="h6" pt={3} pb={1} color="grey">How are we solving it? </Heading>
+          {/* Abhaya - Women Safety Application This web based Application is
+          helpful to ensure safety and protecting rights of Women. */}
+          we are providing live location sharing through
           SMS , calling family members and organisations like police station,
-          office which are nearer to their current location. <br/>
+          office which are nearer to their current location.
+          <br/>
           creating awareness of constitutional law and bringing justice to all victims through NGOs
           and contact us section for assisting with their issues.
           {/* It tries to

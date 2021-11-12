@@ -11,11 +11,11 @@ import {
     // Badge,
     // useColorModeValue,
   } from '@chakra-ui/react';
-  import Numbers from "../data/Numbers.json"
+  import Orgcard from "../data/Orgcard.json"
   const  CardOrg=()=> {
     return (
         <>
-        {Numbers.map((cardEach, index)=>{
+        {Orgcard.map((cardEach, index)=>{
             return(
                 
                 <Center py={6}>

@@ -61,7 +61,7 @@ export default function Header() {
             fontSize="2rem"
             textTransform={"uppercase"}
             fontWeight={"bold"}
-            color={useColorModeValue("pink.600", "pink.400")}
+            color={useColorModeValue("pink.500", "pink.400")}
           >
             <span color="red.500">A</span>bhaya
           </Text>
@@ -77,26 +77,7 @@ export default function Header() {
           direction={"row"}
           spacing={7}
         >
-          {/* <Button
-            as={'a'}
-            fontSize={'m'}
-            fontWeight={600}
-            variant={'link'}
-            href={'#'}>
-            Sign In
-          </Button>
-          <Button
-            display={{ base: 'none', md: 'inline-flex' }}
-            fontSize={'sm'}
-            fontWeight={600}
-            color={'white'}
-            bg={'pink.400'}
-            href={'#'}
-            _hover={{
-              bg: 'pink.300',
-            }}>
-            Sign Up
-          </Button> */}
+
         </Stack>
       </Flex>
 
@@ -261,12 +242,6 @@ const MobileNavItem = ({ label, children, href }) => {
   );
 };
 
-// interface NavItem {
-//   label: string;
-//   subLabel?: string;
-//   children?: Array<NavItem>;
-//   href?: string;
-// }
 
 const NAV_ITEMS = [
   {
@@ -276,18 +251,7 @@ const NAV_ITEMS = [
   {
     label: "about",
     href: "/about",
-    // children: [
-    //   {
-    //     label: 'Alert',
-    //     subLabel: 'Find your dream design job',
-    //     href: '#',
-    //   },
-    //   {
-    //     label: 'Freelance Projects',
-    //     subLabel: 'An exclusive list for contract work',
-    //     href: '#',
-    //   },
-    // ],
+    
   },
   {
     label: "user location",

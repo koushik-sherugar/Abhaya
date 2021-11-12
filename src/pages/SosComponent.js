@@ -22,6 +22,7 @@ const SosComponent = () => {
         <Stack as={Box} alignItems="center" spacing={{ base: 8, md: 14 }}>
           {/* <Text font-weight="700" fontSize="3xl">Whom do you like to contact?</Text> */}
           <Heading
+          color={"pink.500"}
           mt={5}
           fontWeight={600}
           fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}

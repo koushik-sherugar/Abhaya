@@ -41,7 +41,7 @@ const Contact = () => {
                 <WrapItem>
                   <Box>
                     <Heading>Contact</Heading>
-                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
+                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color="pink.500">
                       Fill up the form below to contact
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -53,7 +53,7 @@ const Contact = () => {
                           variant="ghost"
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdPhone color="#1970F1" size="20px" />}>
+                          leftIcon={<MdPhone color="#ff1493" size="20px" />}>
                           +914646466464
                         </Button>
                         <Button
@@ -63,7 +63,7 @@ const Contact = () => {
                           variant="ghost"
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdEmail color="#1970F1" size="20px" />}>
+                          leftIcon={<MdEmail color="#ff1493" size="20px" />}>
                           abhaya@abc.com
                         </Button>
                         <Button
@@ -73,8 +73,8 @@ const Contact = () => {
                           variant="ghost"
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
-                          Karnavati, India
+                          leftIcon={<MdLocationOn color="#ff1493" size="20px" />}>
+                          mumbai, India
                         </Button>
                       </VStack>
                     </Box>
@@ -88,7 +88,7 @@ const Contact = () => {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
+                        _hover={{ bg: '#ff1493' }}
                         icon={<MdFacebook size="28px" />}
                       />
                       <IconButton
@@ -96,7 +96,7 @@ const Contact = () => {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
+                        _hover={{ bg: '#ff1493' }}
                         icon={<BsGithub size="28px" />}
                       />
                       <IconButton
@@ -104,7 +104,7 @@ const Contact = () => {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
+                        _hover={{ bg: '#ff1493' }}
                         icon={<BsDiscord size="28px" />}
                       />
                     </HStack>
@@ -147,7 +147,7 @@ const Contact = () => {
                         <FormControl id="name" float="right">
                           <Button
                             variant="solid"
-                            bg="#0D74FF"
+                            bg="#ff1493"
                             color="white"
                             _hover={{}}>
                             Send Message

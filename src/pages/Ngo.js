@@ -18,7 +18,6 @@ const Ngo = () => {
         <>
              <div h="100vh">
         <Stack as={Box} alignItems="center" spacing={{ base: 8, md: 14 }}>
-          {/* <Text font-weight="700" fontSize="3xl">Whom do you like to contact?</Text> */}
           <Heading
           mt={5}
           fontWeight={500}
@@ -79,6 +78,9 @@ const Ngo = () => {
                           rounded={'full'}
                           bg={'green.400'}
                           color={'white'}
+                          _hover={{
+                            bg: 'green.500',
+                          }}
                           _focus={{
                             bg: 'green.200',
                           }}>
@@ -91,6 +93,9 @@ const Ngo = () => {
                           rounded={'full'}
                           bg={'blue.400'}
                           color={'white'}
+                          _hover={{
+                            bg: 'blue.500',
+                          }}
                           >
                           website
                         </Button>
@@ -103,7 +108,6 @@ const Ngo = () => {
        
 
 </SimpleGrid>
-{/* <Divider marginTop="6" color="grey.600" /> */}
 
           
   

@@ -23,16 +23,7 @@ import {
            "name": 'kunal',
            "call": 66777,
        },
-       {     "id":1,
-            // image:require('')
-           "name": 'koushik',
-           "call": 66777,
-       },
-       {     "id":1,
-       // image:require('')
-      "name": 'koushik',
-      "call": 66777,
-  },
+    
        
        
    ]
