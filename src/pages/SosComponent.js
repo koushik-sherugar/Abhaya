@@ -25,6 +25,7 @@ const SosComponent = () => {
           color={"pink.500"}
           mt={5}
           fontWeight={600}
+          textTransform={"uppercase"}
           fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
           lineHeight={"110%"}
         >Whom do you like to contact?</Heading>

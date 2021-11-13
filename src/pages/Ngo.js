@@ -18,9 +18,12 @@ const Ngo = () => {
       <div h="100vh">
         <Stack as={Box} alignItems="center" spacing={{ base: 8, md: 14 }}>
           <Heading
-            mt={5}
-            fontWeight={500}
-            color={"pink.500"}
+            
+            color="pink.600"
+        as="h1"
+        
+        textTransform={"uppercase"}
+        mb={3}
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
             lineHeight={"110%"}
           >

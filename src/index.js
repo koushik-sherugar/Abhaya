@@ -9,7 +9,14 @@ const config = {
   useSystemColorMode: false,
 };
 // 3. extend the theme
-const theme = extendTheme({ config });
+const theme = extendTheme({ 
+  fonts: {
+    body: 'poppins, mono, Times New Roman, sans-serif',
+    heading: 'mono, sans-serif',
+    mono: 'Times New Roman, sans-serif',
+    Text:'sans-serif',
+  }
+ });
 
 ReactDOM.render(
   <React.StrictMode>

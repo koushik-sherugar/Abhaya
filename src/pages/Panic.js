@@ -38,17 +38,15 @@ const Panic = () => {
         {/* <Center  bg="pink.500" h="100vh" > */}
         {/* <Text my={8}  fontSize="4xl">Panic button</Text> */}
         <Heading
+          color="pink.600"
           as="h1"
-          fontFamily={"Raleway"}
-          fontWeight={"bold"}
-          fontSize={58}
-          // textTransform={"uppercase"}
-          mb={5}
-          color={"pink.600"}
+          fontSize="6xl"
+          textTransform={"uppercase"}
+          mb={3}
         >
           Panic button
         </Heading>
-        <Heading as="h6" mb={8} px={6} color={"pink.500"}>
+        <Heading fontSize={"x-large"} mb={8} px={6} color={"pink.500"}>
           According pshycology it creates panic to the assaulter during attack.
         </Heading>
 
